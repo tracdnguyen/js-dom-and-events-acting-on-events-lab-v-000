@@ -28,3 +28,11 @@ function addNewLiOnClick(){
     resetInput()
   })
 }
+
+function clearEmployeeListOnLinkClick(){
+  let a = document.querySelector('a')
+  let ul = document.querySelector('ul')
+  a.addEventListener('click', function(event){
+    ul.innerHTML = ''
+  })
+}
