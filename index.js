@@ -9,5 +9,5 @@ preventRefreshOnSubmit()
 let input = document.querySelector('input')
 
 function retrieveEmployeeInformation(){
-
+  return input.value
 }
